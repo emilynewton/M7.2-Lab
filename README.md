@@ -20,10 +20,4 @@ locally. This will allow you to see changes in real-time as you make them. There
 is no need to run a build process or refresh the page manually. Additionally,
 you do not need to setup a local server to run the project.
 
-## Testing
 
-To run the tests for the project, run the following command:
-
-```bash
-npm test
-```
