@@ -3,6 +3,7 @@ body {
   margin: 0;
   font: 1.2em / 1.2 baskerville, 'serif';
   background-color: #f0ccde;
+  max-width: 100%; 
 }
 
 img {
@@ -14,14 +15,19 @@ img {
   font-size: 200%;
   padding: 50px 20px;
   margin: 0 auto;
-  max-width: 980px;
+  /* max-width: 980px; */
   text-align: center; 
+  border: groove; 
+  border-width: 25px; 
+  border-color: black; 
+  max-width: 100%; 
 }
 
 .grid {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 980px;
+  /*max-width: 980px;*/
+  max-width: 100%; 
 }
 
 nav {
@@ -30,7 +36,7 @@ nav {
   display: flex; 
   position: sticky; /* positioned based on user's scroll position */ 
   top: 0; /* sticks to the top */ 
-  width: 100%; 
+  max-width: 100%; 
   z-index: 1000; /* Makes it stay on top of other content */
 }
 
@@ -61,7 +67,7 @@ nav li {
 }
 
 .feature {
-    width: 200px;
+  width: 200px;
 }
 
 .top-image {
@@ -79,4 +85,8 @@ nav li {
   display: grid; 
   grid-template-columns: auto auto;
   gap: 1px; 
+}
+
+article {
+  max-width: 100%; 
 }
