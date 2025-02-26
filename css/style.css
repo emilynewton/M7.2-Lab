@@ -1,8 +1,7 @@
 body {
-  background-color: #fff;
   color: #333;
   margin: 0;
-  font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  font: 1.2em / 1.2 baskerville, 'serif';
   background-color: #f0ccde;
 }
 
@@ -33,15 +32,16 @@ nav {
   top: 0; /* sticks to the top */ 
   width: 100%; 
   z-index: 1000; /* Makes it stay on top of other content */
-  justify-content: center;
-  justify-content: space-around;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  float: right; 
+  float: right;
+  display:flex;
+	flex: 1 0 0%;
+  justify-content: space-between; 
 }
 
 nav a {
